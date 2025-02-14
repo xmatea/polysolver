@@ -21,3 +21,8 @@ Repository="https://github.com/xmatea/polysolve.git"
 
 [tool.setuptools.dynamic]
 version = {attr = "polysolve.__version__"}
+
+[project.optional-dependencies]
+docs = ["sphinx",
+    "sphinx_rtd_theme",
+    "sphinx_autodoc_typehints"]
